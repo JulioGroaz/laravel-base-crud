@@ -20,7 +20,7 @@ class AnimalSeeder extends Seeder
         foreach (range(1, 50) as $index) {
             Animal::create([
                 'name' => $faker->name,
-                'species' => $faker->word,
+                'species' => $faker->word
             ]);
         }
     }
