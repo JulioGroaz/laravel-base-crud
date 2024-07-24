@@ -198,8 +198,12 @@ class AnimalSeeder extends Seeder
 
 
         foreach($animalsData as $animalData){
-            $newAnimal= new Animal();
-            $newAnimal -> save();
+            $newAnimal = new Animal();
+            $newAnimal->name = $animalData['name'];
+            $newAnimal->species = $animalData['species'];
+            $newAnimal->alimentation = $animalData['alimentation'];
+            $newAnimal->image = $animalData['image'];
+            $newAnimal->save();
         };
     }
 }

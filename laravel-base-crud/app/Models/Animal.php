@@ -9,12 +9,11 @@ class Animal extends Model
 {
     use HasFactory;
 
-    protected $fillable= [
+   // protected $fillable= [
+     //   'name',
+      //  'species',
+       // 'alimentation',
+       // 'image'
 
-        'name',
-        'species',
-        'alimentation',
-        'image'
-
-    ];
+   // ];
 }
