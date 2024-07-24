@@ -2,9 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Animal;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Animal;
+
 
 class AnimalSeeder extends Seeder
 {
