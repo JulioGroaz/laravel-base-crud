@@ -37,13 +37,13 @@ class AnimalSeeder extends Seeder
                 'name' => 'Giraffe',
                 'species' => 'Giraffa camelopardalis',
                 'alimentation' => 'Herbivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_Mikumi_National_Park.jpg'
+                'image' => 'https://cloud.rtl.it/RTLFM/News/Article/1000x1000/oggi-a-la-giornata-mondiale-dedicata-alla-giraffa-xxlts.jpg'
             ],
             [
                 'name' => 'Zebra',
                 'species' => 'Equus quagga',
                 'alimentation' => 'Herbivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Plains_Zebra_Equus_quagga.jpg'
+                'image' => 'https://upload.wikimedia.org/wikipedia/commons/6/60/Equus_quagga.jpg'
             ],
             [
                 'name' => 'Panda',
@@ -55,13 +55,13 @@ class AnimalSeeder extends Seeder
                 'name' => 'Kangaroo',
                 'species' => 'Macropus rufus',
                 'alimentation' => 'Herbivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Kangaroo_Australia_01.jpg'
+                'image' => 'https://www.thoughtco.com/thmb/OqANUu4U3tNL1Uo2n19uX6PzbM8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/red_kangaroo-24c18ab08dc145f1a798abd4b820390a.jpg'
             ],
             [
                 'name' => 'Penguin',
                 'species' => 'Aptenodytes forsteri',
                 'alimentation' => 'Carnivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/7/74/Emperor_Penguin_Manchot_empereur.jpg'
+                'image' => 'https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/05/30627f237982b80399f5d2db0c8daeeea38a5950.jpeg'
             ],
             [
                 'name' => 'Koala',
@@ -73,19 +73,19 @@ class AnimalSeeder extends Seeder
                 'name' => 'Polar Bear',
                 'species' => 'Ursus maritimus',
                 'alimentation' => 'Carnivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Polar_Bear_-_Alaska_%28cropped%29.jpg'
+                'image' => 'https://files.worldwildlife.org/wwfcmsprod/images/Polar_bear_with_cubs_in_Wapusk_WW266666/carousel_small/25v6lznpnn_Polar_bear_with_cubs_in_Wapusk_WW266666.jpg'
             ],
             [
                 'name' => 'Wolf',
                 'species' => 'Canis lupus',
                 'alimentation' => 'Carnivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/8/89/Canis_lupus_laying_in_grass.jpg'
+                'image' => 'https://static.scientificamerican.com/sciam/cache/file/81EBC93D-A2CA-4898-88D4AEE9CF6BA383_source.jpg?crop=16%3A9%2Csmart&w=1920'
             ],
             [
                 'name' => 'Cheetah',
                 'species' => 'Acinonyx jubatus',
                 'alimentation' => 'Carnivore',
-                'image' => 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Cheetah_at_Serengeti_National_Park.jpg'
+                'image' => 'https://live.staticflickr.com/65535/53225954444_b89bb02440_b.jpg'
             ],
             [
                 'name' => 'Leopard',
