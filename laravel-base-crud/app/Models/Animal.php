@@ -16,4 +16,11 @@ class Animal extends Model
        // 'image'
 
    // ];
+   protected $fillable = [
+    'name',
+    'species',
+    'alimentation',
+    'image',
+];
+
 }
