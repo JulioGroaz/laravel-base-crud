@@ -30,7 +30,12 @@ class AnimalController extends Controller
      */
     public function store(Request $request)
     {
-            $data = $request->all();
+            $data = $request->validate([
+                'name'=> 'required|unique:animals|min:3',
+                'species' => 'required|unique:animals|min:3',
+                'alimentation'=> 'required|min:3',
+                'image' =>'required|url|unique:animals,image',
+            ]);
 
             $newAnimal = new Animal($data);
             $newAnimal->name = $data['name'];
@@ -54,7 +59,7 @@ class AnimalController extends Controller
      */
     public function edit(Animal $animal)
     {
-        //
+        return view('animals.edit', compact('animal'));
     }
 
     /**
@@ -62,7 +67,16 @@ class AnimalController extends Controller
      */
     public function update(Request $request, Animal $animal)
     {
-        //
+        $data = $request->all();
+
+
+            $animal->name = $data['name'];
+            $animal->species = $data['species'];
+            $animal->alimentation = $data['alimentation'];
+            $animal->image = $data['image'];
+            $animal->update();
+
+            return redirect()-> route('animals.show',$animal);
     }
 
     /**
@@ -70,6 +84,7 @@ class AnimalController extends Controller
      */
     public function destroy(Animal $animal)
     {
-        //
+        $animal->delete();
+        return redirect()->route('animals.index');
     }
 }

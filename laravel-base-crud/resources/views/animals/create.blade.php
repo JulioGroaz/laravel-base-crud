@@ -6,6 +6,17 @@
             Insert new Animal
         </h1>
     </div>
+
+    @if ($errors->any())
+    <div class="alert alert-danger ">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{$error}}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
+
     <div class="row justify-content-center">
         <div class="col-6 ">
             <form action="{{route('animals.store')}}" method="POST">
@@ -25,6 +36,7 @@
 
                 <input type="submit" value='Insert new animal' class="btn btn-primary " style="margin-top:2rem;">
             </form>
+            <a href="{{route('animals.index')}}" class="btn btn-primary col-8" style="margin-top: 2rem">Torna alla home</a>
         </div>
     </div>
 
